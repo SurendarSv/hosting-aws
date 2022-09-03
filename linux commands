@@ -1,4 +1,4 @@
-
+sudo -i
 sudo apt update
 yum install httpd   ///static web host-->apache (to host the apache)
                     /// apache installed ///
@@ -14,3 +14,6 @@ ls                  // list file
 cd/html/
 ls
 pwd                 // opens html file use WINSCP to transfer the HTML CODE to the linux instances(machine)
+sudo mv * /var/ww/html/
+logout
+sudo -i
