@@ -1,7 +1,7 @@
 sudo -i
 sudo apt update
-yum install httpd   ///static web host-->apache (to host the apache)
-                    /// apache installed ///
+yum install httpd or sudo apt install apache 2  ///static web host-->apache (to host the apache)
+                                               /// apache installed ///
 service httpd start 
 cd/var/www/html/ 
 pwd                 /// open file
